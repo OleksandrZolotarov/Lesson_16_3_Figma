@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/null.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson_15_repeat</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+
+			</div>
+		</header>
+
+
+		<main class="main">
+			<div class="main__container">
+				<div class="summary">
+					<div class="summary__container">
+						<div class="summary__header">
+							<h2 class="summary__title">Summary</h2>
+							<h3 class="summary__sub-title">Estimate Shipping and Tax</h3>
+							<p>Enter your destination to get a shipping estimate.</p>
+						</div>
+						<form class="summary__form" action="#">
+							<div class="summary__input-container">
+								<label class="summary__label" for="country">Country</label>
+								<select class="summary__dropdown-country" autocomplete="off" name="name" id="country">
+									<option value="name">Australia</option>
+								</select>
+
+								<label class="summary__label" for="state">State/Province</label>
+								<input type="text" class="summary__input" id="state" value="" name="state" required
+									autocomplete="off">
+
+								<label class="summary__label" for="zip">Zip/Postal Code</label>
+								<input class="summary__input" type="text" id="zip" value="" name="zip" required
+									autocomplete="off">
+							</div>
+
+							<div class="summary__radio-container">
+
+								<h6 class="summary__radio-button-title">
+									Standard Rate
+								</h6>
+								<div class="summary__radio-button-wrap">
+									<input class="summary__radio-input" type="radio" name="location" value="rate" id="rate">
+
+									<label class="summary__radio-label" for="rate">Price may vary depending on
+										the item/destination. Shop Staff will contact you. $21.00</label>
+
+								</div>
+
+
+
+								<h6 class="summary__radio-button-title">
+									Pickup from store
+								</h6>
+								<div class="summary__radio-button-wrap">
+									<input class="summary__radio-input" type="radio" name="location" value="store" checked
+										id="pickup">
+									<label class="summary__radio-label" for="pickup"> 1234 Street Adress City
+										Address, 1234 $0.00</label>
+
+								</div>
+							</div>
+
+
+
+
+							<h3 class="summary__sub-title">Apply Discount Code</h3>
+
+							<label class="summary__label" for="discount">Enter discount code</label>
+							<input class="summary__input" type="text" id="discount" placeholder="Enter Discount code"
+								autocomplete="off" required>
+
+							<button class="summary__button" type="submit">Apply Discount</button>
+
+
+						</form>
+					</div>
+				</div>
+
+
+
+
+
+
+
+
+
+			</div>
+		</main>
+		<footer class=" footer">
+			<div class="footer__container">
+
+			</div>
+		</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+</body>
+
+</html>
